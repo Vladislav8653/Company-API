@@ -932,6 +932,21 @@
         "runtime": {
           "bin/placeholder/LoggerService.dll": {}
         }
+      },
+      "Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Contracts": "1.0.0",
+          "Entities": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "8.0.8"
+        },
+        "compile": {
+          "bin/placeholder/Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Repository.dll": {}
+        }
       }
     }
   },
@@ -2388,13 +2403,19 @@
       "type": "project",
       "path": "LoggerService/LoggerService.csproj",
       "msbuildProject": "LoggerService/LoggerService.csproj"
+    },
+    "Repository/1.0.0": {
+      "type": "project",
+      "path": "Repository/Repository.csproj",
+      "msbuildProject": "Repository/Repository.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Entities >= 1.0.0",
       "LoggerService >= 1.0.0",
-      "Microsoft.EntityFrameworkCore.Design >= 8.0.8"
+      "Microsoft.EntityFrameworkCore.Design >= 8.0.8",
+      "Repository >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2429,6 +2450,9 @@
             },
             "D:\\my_code\\book code\\CompanyEmployees\\LoggerService\\LoggerService.csproj": {
               "projectPath": "D:\\my_code\\book code\\CompanyEmployees\\LoggerService\\LoggerService.csproj"
+            },
+            "D:\\my_code\\book code\\CompanyEmployees\\Repository\\Repository.csproj": {
+              "projectPath": "D:\\my_code\\book code\\CompanyEmployees\\Repository\\Repository.csproj"
             }
           }
         }

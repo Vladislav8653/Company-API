@@ -2,6 +2,7 @@
 using Contracts;
 using Entities;
 using Microsoft.EntityFrameworkCore;
+using Repository;
 
 namespace CompanyEmployees.Extensions;
 
@@ -25,6 +26,9 @@ public static class ServiceExtensions
     public static void ConfigureSqlContext(this IServiceCollection services, IConfiguration configuration) =>
         services.AddDbContext<RepositoryContext>(opts =>
             opts.UseNpgsql(configuration.GetConnectionString("sqlConnection"), b =>
-                b.MigrationsAssembly("CompanyEmployees"))); 
-    
+                b.MigrationsAssembly("CompanyEmployees")));
+
+    public static void ConfigureRepositoryManager(this IServiceCollection services) =>
+        services.AddScoped<IRepositoryManager, RepositoryManager>();
+
 }

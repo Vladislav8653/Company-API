@@ -10,7 +10,8 @@
         "dependencies": {
           "Entities": "1.0.0",
           "LoggerService": "1.0.0",
-          "Microsoft.EntityFrameworkCore.Design": "8.0.8"
+          "Microsoft.EntityFrameworkCore.Design": "8.0.8",
+          "Repository": "1.0.0"
         },
         "runtime": {
           "CompanyEmployees.dll": {}
@@ -536,6 +537,16 @@
         "runtime": {
           "LoggerService.dll": {}
         }
+      },
+      "Repository/1.0.0": {
+        "dependencies": {
+          "Contracts": "1.0.0",
+          "Entities": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "8.0.8"
+        },
+        "runtime": {
+          "Repository.dll": {}
+        }
       }
     }
   },
@@ -850,6 +861,11 @@
       "sha512": ""
     },
     "LoggerService/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Repository/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
