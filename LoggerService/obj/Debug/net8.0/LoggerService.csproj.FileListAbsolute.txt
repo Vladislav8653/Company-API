@@ -13,3 +13,4 @@ D:\my_code\book code\CompanyEmployees\LoggerService\obj\Debug\net8.0\LoggerServi
 D:\my_code\book code\CompanyEmployees\LoggerService\obj\Debug\net8.0\refint\LoggerService.dll
 D:\my_code\book code\CompanyEmployees\LoggerService\obj\Debug\net8.0\LoggerService.pdb
 D:\my_code\book code\CompanyEmployees\LoggerService\obj\Debug\net8.0\ref\LoggerService.dll
+D:\my_code\book code\CompanyEmployees\LoggerService\obj\Debug\net8.0\LoggerService.sourcelink.json

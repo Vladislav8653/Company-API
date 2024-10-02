@@ -12,3 +12,4 @@ D:\my_code\book code\CompanyEmployees\Entities\obj\Debug\net8.0\Entities.pdb
 D:\my_code\book code\CompanyEmployees\Entities\obj\Debug\net8.0\ref\Entities.dll
 D:\my_code\book code\CompanyEmployees\Entities\bin\Debug\net8.0\Entities.runtimeconfig.json
 D:\my_code\book code\CompanyEmployees\Entities\obj\Debug\net8.0\Entities.genruntimeconfig.cache
+D:\my_code\book code\CompanyEmployees\Entities\obj\Debug\net8.0\Entities.sourcelink.json

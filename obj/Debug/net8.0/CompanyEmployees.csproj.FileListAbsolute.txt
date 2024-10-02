@@ -121,3 +121,7 @@ D:\my_code\book code\CompanyEmployees\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis
 D:\my_code\book code\CompanyEmployees\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\my_code\book code\CompanyEmployees\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\my_code\book code\CompanyEmployees\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\my_code\book code\CompanyEmployees\obj\Debug\net8.0\CompanyEmployees.sourcelink.json
+D:\my_code\book code\CompanyEmployees\bin\Debug\net8.0\Entities\obj\Debug\net8.0\Entities.sourcelink.json
+D:\my_code\book code\CompanyEmployees\bin\Debug\net8.0\LoggerService\obj\Debug\net8.0\LoggerService.sourcelink.json
+D:\my_code\book code\CompanyEmployees\bin\Debug\net8.0\Contracts\obj\Debug\net8.0\Contracts.sourcelink.json
