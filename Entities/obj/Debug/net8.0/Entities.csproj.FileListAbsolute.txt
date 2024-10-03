@@ -1,4 +1,5 @@
 D:\my_code\book code\CompanyEmployees\Entities\bin\Debug\net8.0\Entities.deps.json
+D:\my_code\book code\CompanyEmployees\Entities\bin\Debug\net8.0\Entities.runtimeconfig.json
 D:\my_code\book code\CompanyEmployees\Entities\bin\Debug\net8.0\Entities.dll
 D:\my_code\book code\CompanyEmployees\Entities\bin\Debug\net8.0\Entities.pdb
 D:\my_code\book code\CompanyEmployees\Entities\obj\Debug\net8.0\Entities.csproj.AssemblyReference.cache
@@ -6,10 +7,9 @@ D:\my_code\book code\CompanyEmployees\Entities\obj\Debug\net8.0\Entities.Generat
 D:\my_code\book code\CompanyEmployees\Entities\obj\Debug\net8.0\Entities.AssemblyInfoInputs.cache
 D:\my_code\book code\CompanyEmployees\Entities\obj\Debug\net8.0\Entities.AssemblyInfo.cs
 D:\my_code\book code\CompanyEmployees\Entities\obj\Debug\net8.0\Entities.csproj.CoreCompileInputs.cache
+D:\my_code\book code\CompanyEmployees\Entities\obj\Debug\net8.0\Entities.sourcelink.json
 D:\my_code\book code\CompanyEmployees\Entities\obj\Debug\net8.0\Entities.dll
 D:\my_code\book code\CompanyEmployees\Entities\obj\Debug\net8.0\refint\Entities.dll
 D:\my_code\book code\CompanyEmployees\Entities\obj\Debug\net8.0\Entities.pdb
-D:\my_code\book code\CompanyEmployees\Entities\obj\Debug\net8.0\ref\Entities.dll
-D:\my_code\book code\CompanyEmployees\Entities\bin\Debug\net8.0\Entities.runtimeconfig.json
 D:\my_code\book code\CompanyEmployees\Entities\obj\Debug\net8.0\Entities.genruntimeconfig.cache
-D:\my_code\book code\CompanyEmployees\Entities\obj\Debug\net8.0\Entities.sourcelink.json
+D:\my_code\book code\CompanyEmployees\Entities\obj\Debug\net8.0\ref\Entities.dll

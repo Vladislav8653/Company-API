@@ -28,9 +28,6 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\my_code\\book code\\CompanyEmployees\\Entities\\Entities.csproj": {
-                "projectPath": "D:\\my_code\\book code\\CompanyEmployees\\Entities\\Entities.csproj"
-              },
               "D:\\my_code\\book code\\CompanyEmployees\\LoggerService\\LoggerService.csproj": {
                 "projectPath": "D:\\my_code\\book code\\CompanyEmployees\\LoggerService\\LoggerService.csproj"
               },
@@ -103,7 +100,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\my_code\\book code\\CompanyEmployees\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\my_code\\book code\\CompanyEmployees\\Entities\\Entities.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
