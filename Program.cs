@@ -1,17 +1,19 @@
 using CompanyEmployees.Extensions;
+using LoggerService;
 using Microsoft.AspNetCore.HttpOverrides;
+using CompanyEmployees;
 using NLog;
 
-var logger = LogManager.GetCurrentClassLogger();
 LogManager.Setup().LoadConfigurationFromFile(string.Concat(Directory.GetCurrentDirectory(), "/nlog.config"));
-
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.ConfigureSqlContext(builder.Configuration);
+builder.Services.AddAutoMapper(typeof(MappingProfile).Assembly);
 builder.Services.ConfigureRepositoryManager();
 builder.Services.AddControllers();
 builder.Services.ConfigureCors();
 builder.Services.ConfigureIISIntegration();
 builder.Services.ConfigureLoggerService();
+
 
 var app = builder.Build();
 
@@ -24,6 +26,8 @@ else
 {
     app.UseHsts();
 }
+
+app.ConfigureExceptionHandler(new LoggerManager()); // я не уверен что это верно
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseCors("CorsPolicy");

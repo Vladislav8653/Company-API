@@ -5,8 +5,6 @@ D:\my_code\book code\CompanyEmployees\Contracts\bin\Debug\net8.0\Entities.dll
 D:\my_code\book code\CompanyEmployees\Contracts\bin\Debug\net8.0\Entities.pdb
 D:\my_code\book code\CompanyEmployees\Contracts\obj\Debug\net8.0\Contracts.csproj.AssemblyReference.cache
 D:\my_code\book code\CompanyEmployees\Contracts\obj\Debug\net8.0\Contracts.GeneratedMSBuildEditorConfig.editorconfig
-D:\my_code\book code\CompanyEmployees\Contracts\obj\Debug\net8.0\Contracts.AssemblyInfoInputs.cache
-D:\my_code\book code\CompanyEmployees\Contracts\obj\Debug\net8.0\Contracts.AssemblyInfo.cs
 D:\my_code\book code\CompanyEmployees\Contracts\obj\Debug\net8.0\Contracts.csproj.CoreCompileInputs.cache
 D:\my_code\book code\CompanyEmployees\Contracts\obj\Debug\net8.0\Contracts.sourcelink.json
 D:\my_code\book code\CompanyEmployees\Contracts\obj\Debug\net8.0\Contracts.csproj.Up2Date

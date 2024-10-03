@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "D:\\my_code\\book code\\CompanyEmployees\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AC55D5CD-EF20-45D2-9717-600280E5FC0A}|Entities\\Entities.csproj|d:\\my_code\\book code\\companyemployees\\entities\\errormodel\\exceptionmiddlewareextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC55D5CD-EF20-45D2-9717-600280E5FC0A}|Entities\\Entities.csproj|solutionrelative:entities\\errormodel\\exceptionmiddlewareextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6BAB2A7-6E5C-4F5A-9F09-9570D95B7CB6}|LoggerService\\LoggerService.csproj|d:\\my_code\\book code\\companyemployees\\loggerservice\\loggermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6BAB2A7-6E5C-4F5A-9F09-9570D95B7CB6}|LoggerService\\LoggerService.csproj|solutionrelative:loggerservice\\loggermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9774401D-9397-4DAB-884F-D8A95A26D4CA}|Repository\\Repository.csproj|d:\\my_code\\book code\\companyemployees\\repository\\repository.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9774401D-9397-4DAB-884F-D8A95A26D4CA}|Repository\\Repository.csproj|solutionrelative:repository\\repository.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{738758D8-CC29-4294-9185-AB4C351A7084}|Contracts\\Contracts.csproj|d:\\my_code\\book code\\companyemployees\\contracts\\contracts.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{738758D8-CC29-4294-9185-AB4C351A7084}|Contracts\\Contracts.csproj|solutionrelative:contracts\\contracts.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -27,14 +39,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Contracts",
-              "DocumentMoniker": "D:\\my_code\\book code\\CompanyEmployees\\Contracts\\Contracts.csproj",
-              "RelativeDocumentMoniker": "Contracts\\Contracts.csproj",
-              "ToolTip": "D:\\my_code\\book code\\CompanyEmployees\\Contracts\\Contracts.csproj",
-              "RelativeToolTip": "Contracts\\Contracts.csproj",
+              "Title": "ExceptionMiddlewareExtensions.cs",
+              "DocumentMoniker": "D:\\my_code\\book code\\CompanyEmployees\\Entities\\ErrorModel\\ExceptionMiddlewareExtensions.cs",
+              "RelativeDocumentMoniker": "Entities\\ErrorModel\\ExceptionMiddlewareExtensions.cs",
+              "ToolTip": "D:\\my_code\\book code\\CompanyEmployees\\Entities\\ErrorModel\\ExceptionMiddlewareExtensions.cs",
+              "RelativeToolTip": "Entities\\ErrorModel\\ExceptionMiddlewareExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T14:57:23.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoggerManager.cs",
+              "DocumentMoniker": "D:\\my_code\\book code\\CompanyEmployees\\LoggerService\\LoggerManager.cs",
+              "RelativeDocumentMoniker": "LoggerService\\LoggerManager.cs",
+              "ToolTip": "D:\\my_code\\book code\\CompanyEmployees\\LoggerService\\LoggerManager.cs",
+              "RelativeToolTip": "LoggerService\\LoggerManager.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-03T08:50:31.399Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T14:56:44.907Z",
               "EditorCaption": ""
             },
             {
@@ -60,6 +85,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Repository",
+              "DocumentMoniker": "D:\\my_code\\book code\\CompanyEmployees\\Repository\\Repository.csproj",
+              "RelativeDocumentMoniker": "Repository\\Repository.csproj",
+              "ToolTip": "D:\\my_code\\book code\\CompanyEmployees\\Repository\\Repository.csproj",
+              "RelativeToolTip": "Repository\\Repository.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-03T14:56:44.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Contracts.csproj",
+              "DocumentMoniker": "D:\\my_code\\book code\\CompanyEmployees\\Contracts\\Contracts.csproj",
+              "RelativeDocumentMoniker": "Contracts\\Contracts.csproj",
+              "ToolTip": "D:\\my_code\\book code\\CompanyEmployees\\Contracts\\Contracts.csproj",
+              "RelativeToolTip": "Contracts\\Contracts.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-03T08:50:31.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "D:\\my_code\\book code\\CompanyEmployees\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "WeatherForecast.cs",
@@ -71,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\my_code\\book code\\CompanyEmployees\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -79,8 +130,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T06:36:32.945Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-11T06:36:32.945Z"
             }
           ]
         }

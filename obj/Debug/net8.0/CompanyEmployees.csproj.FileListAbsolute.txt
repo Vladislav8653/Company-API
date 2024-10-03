@@ -1,7 +1,5 @@
 D:\my_code\book code\CompanyEmployees\obj\Debug\net8.0\CompanyEmployees.csproj.AssemblyReference.cache
 D:\my_code\book code\CompanyEmployees\obj\Debug\net8.0\CompanyEmployees.GeneratedMSBuildEditorConfig.editorconfig
-D:\my_code\book code\CompanyEmployees\obj\Debug\net8.0\CompanyEmployees.AssemblyInfoInputs.cache
-D:\my_code\book code\CompanyEmployees\obj\Debug\net8.0\CompanyEmployees.AssemblyInfo.cs
 D:\my_code\book code\CompanyEmployees\obj\Debug\net8.0\CompanyEmployees.csproj.CoreCompileInputs.cache
 D:\my_code\book code\CompanyEmployees\obj\Debug\net8.0\CompanyEmployees.MvcApplicationPartsAssemblyInfo.cache
 D:\my_code\book code\CompanyEmployees\obj\Debug\net8.0\CompanyEmployees.sourcelink.json
@@ -132,3 +130,5 @@ D:\my_code\book code\CompanyEmployees\obj\Debug\net8.0\refint\CompanyEmployees.d
 D:\my_code\book code\CompanyEmployees\obj\Debug\net8.0\CompanyEmployees.pdb
 D:\my_code\book code\CompanyEmployees\obj\Debug\net8.0\CompanyEmployees.genruntimeconfig.cache
 D:\my_code\book code\CompanyEmployees\obj\Debug\net8.0\ref\CompanyEmployees.dll
+D:\my_code\book code\CompanyEmployees\bin\Debug\net8.0\AutoMapper.dll
+D:\my_code\book code\CompanyEmployees\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

@@ -7,8 +7,6 @@ D:\my_code\book code\CompanyEmployees\Repository\bin\Debug\net8.0\Contracts.pdb
 D:\my_code\book code\CompanyEmployees\Repository\bin\Debug\net8.0\Entities.pdb
 D:\my_code\book code\CompanyEmployees\Repository\obj\Debug\net8.0\Repository.csproj.AssemblyReference.cache
 D:\my_code\book code\CompanyEmployees\Repository\obj\Debug\net8.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
-D:\my_code\book code\CompanyEmployees\Repository\obj\Debug\net8.0\Repository.AssemblyInfoInputs.cache
-D:\my_code\book code\CompanyEmployees\Repository\obj\Debug\net8.0\Repository.AssemblyInfo.cs
 D:\my_code\book code\CompanyEmployees\Repository\obj\Debug\net8.0\Repository.csproj.CoreCompileInputs.cache
 D:\my_code\book code\CompanyEmployees\Repository\obj\Debug\net8.0\Repository.sourcelink.json
 D:\my_code\book code\CompanyEmployees\Repository\obj\Debug\net8.0\Repository.csproj.Up2Date
