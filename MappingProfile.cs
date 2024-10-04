@@ -1,6 +1,8 @@
 ﻿using AutoMapper;
 using Entities.Models;
 using Entities.DataTransferObjects;
+
+
 namespace CompanyEmployees;
 
 public class MappingProfile : Profile
@@ -12,5 +14,7 @@ public class MappingProfile : Profile
                 opt => 
                     opt.MapFrom(x => 
                         string.Join(' ', x.Address, x.Country)));
+
+        CreateMap<Employee, EmployeeDto>();
     }
 }
