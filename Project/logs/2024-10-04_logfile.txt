@@ -123,3 +123,4 @@ Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[[Entities.Models.
    at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
    at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
 2024-10-04 18:37:48.7835 INFO Employee with id: 86dba8c0-d178-41e7-938c-ed49778fb52b doesn't exist in the database.
+2024-10-04 18:49:35.6713 INFO Employee with id: 86dba8c0-d178-41e7-938c-ed49778fb52b doesn't exist in the database.
