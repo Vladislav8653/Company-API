@@ -1,0 +1,3 @@
+2024-10-05 17:03:22.0437 ERROR CompanyForCreationDto object sent from client is null.
+2024-10-05 17:54:07.7639 ERROR Company with id: 53a1237a-3ed3-4462-b9f0-5a7bb1056a33 doesn't exist in the database.
+2024-10-05 17:55:29.8072 ERROR Company with id: 53a1237a-3ed3-4462-b9f0-5a7bb1056a33 doesn't exist in the database.
