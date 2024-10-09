@@ -132,3 +132,7 @@ D:\my_code\book code\CompanyEmployees\obj\Debug\net8.0\CompanyEmployees.genrunti
 D:\my_code\book code\CompanyEmployees\obj\Debug\net8.0\ref\CompanyEmployees.dll
 D:\my_code\book code\CompanyEmployees\bin\Debug\net8.0\AutoMapper.dll
 D:\my_code\book code\CompanyEmployees\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\my_code\book code\CompanyEmployees\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\my_code\book code\CompanyEmployees\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\my_code\book code\CompanyEmployees\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\my_code\book code\CompanyEmployees\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll

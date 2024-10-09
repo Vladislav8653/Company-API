@@ -30,6 +30,7 @@ public class CompaniesController : ControllerBase
         return Ok(companiesDto);
     }
 
+    
     [HttpGet("{id:guid}", Name = "CompanyById")]
     public IActionResult GetCompany(Guid id)
     {
@@ -46,6 +47,7 @@ public class CompaniesController : ControllerBase
         }
     }
 
+    
     [HttpPost]
     public IActionResult CreateCompany([FromBody] CompanyForCreationDto? company)
     {
@@ -63,6 +65,7 @@ public class CompaniesController : ControllerBase
             new { id = companyToReturn.Id }, companyToReturn);
     }
 
+    
     [HttpGet("collection/({ids})", Name = "CompanyCollection")]
     public IActionResult GetCompanyCollection([ModelBinder(BinderType = typeof(ArrayModelBinder))]
         IEnumerable<Guid>? ids)
@@ -104,5 +107,26 @@ public class CompaniesController : ControllerBase
         var ids = string.Join(",", companyCollectionToReturn.Select(c => c.Id));
         return CreatedAtRoute("CompanyCollection", new { ids }, companyCollectionToReturn);
     }
+
     
+    [HttpPut("{id}")]
+    public IActionResult UpdateCompany(Guid id, [FromBody] CompanyForUpdateDto? company)
+    {
+        if(company == null) 
+        { 
+            _logger.LogError("CompanyForUpdateDto object sent from client is null."); 
+            return BadRequest("CompanyForUpdateDto object is null"); 
+        }
+
+        var companyEntity = _repository.Company.GetCompany(id, trackChanges: true);
+        if(companyEntity == null) 
+        { 
+            _logger.LogInfo($"Company with id: {id} doesn't exist in the database."); 
+            return NotFound(); 
+        }
+
+        _mapper.Map(company, companyEntity);
+        _repository.Save();
+        return NoContent();
+    }
 }

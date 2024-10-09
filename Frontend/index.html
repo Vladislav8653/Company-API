@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client for testing API</title>
+    <style>
+        #form-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px; /* Отступ между элементами */
+        }
+        .company {
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+            min-width: 200px; /* Минимальная ширина для каждого блока */
+            position: relative; /* Для абсолютного позиционирования сотрудника */
+            display: flex;
+            flex-direction: column; /* Вертикальное расположение элементов */
+        }
+        .employee {
+            margin-top: 10px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #e9e9e9;
+            margin-left: 20px; /* Отступ слева для employee */
+        }
+        .employee-buttons {
+            margin-top: 10px;
+            display: flex;
+            justify-content: flex-start; /* Выравнивание кнопок влево */
+        }
+    </style>
+</head>
+<body>
+<div id="form-container">
+    <div class="company">
+        <label for="name">Name:</label>
+        <input type="text" id="name">
+        <br><br>
+        <label for="address">Address:</label>
+        <input type="text" id="address">
+        <br><br>
+        <label for="country">Country:</label>
+        <input type="text" id="country">
+        <div class="employee-buttons">
+            <button class="add-employee">+1e</button>
+            <button class="remove-employee">-1e</button>
+        </div>
+        <br><br>
+        <div class="employees">
+            <!-- Сюда будут добавляться новые div для сотрудников -->
+        </div> <!-- Контейнер для сотрудников -->
+    </div>
+</div>
+<button id="add">+1</button>
+<button id="remove">-1</button>
+
+<script src="script.js"></script>
+</body>
+</html>
