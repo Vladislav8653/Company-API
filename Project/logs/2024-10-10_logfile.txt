@@ -1,0 +1,75 @@
+2024-10-10 18:33:50.4089 ERROR Something went wrong: Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+CompanyEmployees.Controllers.EmployeesController.CreateEmployeeForCompany (CompanyEmployees)
+CompanyEmployees.Controllers.EmployeesController.DeleteEmployeeForCompany (CompanyEmployees)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.Invoke(HttpContext context)
+2024-10-10 18:36:10.9695 ERROR Something went wrong: Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+CompanyEmployees.Controllers.EmployeesController.CreateEmployeeForCompany (CompanyEmployees)
+CompanyEmployees.Controllers.EmployeesController.DeleteEmployeeForCompany (CompanyEmployees)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.Invoke(HttpContext context)
+2024-10-10 18:37:47.4041 ERROR Something went wrong: Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+CompanyEmployees.Controllers.EmployeesController.CreateEmployeeForCompany (CompanyEmployees)
+CompanyEmployees.Controllers.EmployeesController.DeleteEmployeeForCompany (CompanyEmployees)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.Invoke(HttpContext context)
+2024-10-10 18:38:47.1692 ERROR Something went wrong: Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+CompanyEmployees.Controllers.EmployeesController.CreateEmployeeForCompany (CompanyEmployees)
+CompanyEmployees.Controllers.EmployeesController.DeleteEmployeeForCompany (CompanyEmployees)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.Invoke(HttpContext context)
+2024-10-10 18:41:59.0194 ERROR Something went wrong: Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+CompanyEmployees.Controllers.EmployeesController.CreateEmployeeForCompany (CompanyEmployees)
+CompanyEmployees.Controllers.EmployeesController.DeleteEmployeeForCompany (CompanyEmployees)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.Invoke(HttpContext context)
+2024-10-10 19:45:31.8143 ERROR Invalid model state for the EmployeeForCreationDto object
+2024-10-10 19:46:17.3773 ERROR EmployeeForCreationDto object sent from client is null.
+2024-10-10 19:46:29.6397 ERROR EmployeeForCreationDto object sent from client is null.
+2024-10-10 19:56:17.0078 ERROR Invalid model state for CompanyForCreationDto object
+2024-10-10 19:57:24.5144 ERROR Invalid model state for CompanyForCreationDto object
+2024-10-10 19:57:51.7363 ERROR Invalid model state for CompanyForCreationDto object
+2024-10-10 19:58:43.1392 ERROR Invalid model state for CompanyForCreationDto object
+2024-10-10 19:58:50.5331 ERROR Invalid model state for CompanyForCreationDto object
+2024-10-10 19:59:34.9112 ERROR Invalid model state for CompanyForCreationDto object
+2024-10-10 20:00:38.5803 ERROR Invalid model state for CompanyForCreationDto object
+2024-10-10 20:01:43.2535 ERROR Invalid model state for CompanyForCreationDto object
+2024-10-10 20:15:26.3792 ERROR Invalid model state for the EmployeeForUpdateDto object
+2024-10-10 20:15:39.1411 ERROR Invalid model state for the EmployeeForUpdateDto object
+2024-10-10 20:15:50.4070 ERROR EmployeeForUpdateDto object sent from client is null.
+2024-10-10 20:16:02.1962 ERROR EmployeeForUpdateDto object sent from client is null.

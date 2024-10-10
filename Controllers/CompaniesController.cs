@@ -57,6 +57,11 @@ public class CompaniesController : ControllerBase
             return BadRequest("CompanyForCreatingDto object is null");
         }
 
+        if (!ModelState.IsValid)
+        {
+            _logger.LogError("Invalid model state for CompanyForCreationDto object");
+            return UnprocessableEntity(ModelState);
+        }
         var companyEntity = _mapper.Map<Company>(company);
         _repository.Company.CreateCompany(companyEntity);
         _repository.Save();
