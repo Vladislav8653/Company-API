@@ -73,3 +73,27 @@ CompanyEmployees.Controllers.EmployeesController.DeleteEmployeeForCompany (Compa
 2024-10-10 20:15:39.1411 ERROR Invalid model state for the EmployeeForUpdateDto object
 2024-10-10 20:15:50.4070 ERROR EmployeeForUpdateDto object sent from client is null.
 2024-10-10 20:16:02.1962 ERROR EmployeeForUpdateDto object sent from client is null.
+2024-10-10 20:37:29.2426 ERROR patchDoc object sent from client is null.
+2024-10-10 20:38:13.6757 ERROR patchDoc object sent from client is null.
+2024-10-10 20:38:40.1631 ERROR patchDoc object sent from client is null.
+2024-10-10 20:39:41.3412 ERROR Invalid model state for the patch document
+2024-10-10 20:43:40.4008 ERROR Invalid model state for the patch document
+2024-10-10 21:46:48.0067 ERROR Something went wrong: AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+AsyncStateMachineBox`1 -> IEnumerable`1
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[System.Collections.Generic.IEnumerable`1[[Entities.Models.Company, CompanyEmployees, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Repository.CompanyRepository+<GetAllCompaniesAsync>d__1, CompanyEmployees, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Entities.DataTransferObjects.CompanyDto, CompanyEmployees, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]
+   at lambda_method73(Closure, Object, IEnumerable`1, ResolutionContext)
+   at CompanyEmployees.Controllers.CompaniesController.GetCompanies() in D:\my_code\book code\CompanyEmployees\Controllers\CompaniesController.cs:line 29
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
