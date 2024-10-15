@@ -3,9 +3,11 @@ using LoggerService;
 using Microsoft.AspNetCore.HttpOverrides;
 using CompanyEmployees;
 using CompanyEmployees.ActionFilters;
+using Contracts;
+using Entities.DataTransferObjects;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.WebSockets;
 using NLog;
+using Repository.DataShaping;
 
 LogManager.Setup().LoadConfigurationFromFile(string.Concat(Directory.GetCurrentDirectory(), "/nlog.config"));
 var builder = WebApplication.CreateBuilder(args);
@@ -33,6 +35,7 @@ builder.Services.ConfigureLoggerService();
 builder.Services.AddScoped<ValidationFilterAttribute>();
 builder.Services.AddScoped<ValidateCompanyExistsAttribute>();
 builder.Services.AddScoped<ValidateEmployeeForCompanyExistsAttribute>();
+builder.Services.AddScoped<IDataShaper<EmployeeDto>, DataShaper<EmployeeDto>>();
 
 
 var app = builder.Build();
