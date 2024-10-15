@@ -1,0 +1,2 @@
+2024-10-15 09:27:15.5420 ERROR Invalid model state for the object. Controller: Employees, action: CreateEmployeeForCompany
+2024-10-15 09:28:46.8505 ERROR Invalid model state for the object. Controller: Employees, action: CreateEmployeeForCompany
