@@ -53,17 +53,6 @@ public class CompaniesController : ControllerBase
     [ServiceFilter(typeof(ValidationFilterAttribute))]
     public async Task<IActionResult> CreateCompany([FromBody] CompanyForCreationDto? company)
     {
-        /*if (company == null)
-        {
-            _logger.LogError("CompanyForCreationDto object sent from client is null.");
-            return BadRequest("CompanyForCreatingDto object is null");
-        }
-
-        if (!ModelState.IsValid)
-        {
-            _logger.LogError("Invalid model state for CompanyForCreationDto object");
-            return UnprocessableEntity(ModelState);
-        }*/
         var companyEntity = _mapper.Map<Company>(company);
         _repository.Company.CreateCompany(companyEntity);
         await _repository.SaveAsync();

@@ -5,6 +5,8 @@ using Microsoft.AspNetCore.Mvc;
 using Entities.DataTransferObjects;
 using Microsoft.AspNetCore.JsonPatch;
 using Entities.Models;
+using Entities.RequestFeatures;
+using Newtonsoft.Json;
 
 namespace CompanyEmployees.Controllers;
 
@@ -25,15 +27,20 @@ public class EmployeesController : Controller
     }
 
     [HttpGet]
-    public async Task<IActionResult> GetEmployeesForCompany(Guid companyId)
+    public async Task<IActionResult> GetEmployeesForCompany(Guid companyId,
+        [FromQuery] EmployeeParameters employeeParameters)
     {
-        var company = await _repository.Company.GetAllCompaniesAsync(trackChanges: false);
+        var company = await _repository.Company.GetCompanyAsync(companyId, trackChanges: false);
         if (company == null)
         {
             _logger.LogInfo($"Company with id: {companyId} doesn't exist in the database.");
             return NotFound();
         }
-        var employeesFromDb = _repository.Employee.GetEmployees(companyId, trackChanges: false);
+
+        var employeesFromDb = await _repository.Employee.GetEmployeesAsync(
+            companyId, employeeParameters, trackChanges: false);
+        
+        Response.Headers.Add("X-Pagination", JsonConvert.SerializeObject(employeesFromDb.MetaData));
         var employeesDto = _mapper.Map<IEnumerable<EmployeeDto>>(employeesFromDb);
         return Ok(employeesDto);
     }
@@ -62,17 +69,6 @@ public class EmployeesController : Controller
     [ServiceFilter(typeof(ValidationFilterAttribute))]
     public async Task<IActionResult> CreateEmployeeForCompany(Guid companyId, [FromBody] EmployeeForCreationDto? employee)
     {
-        /*if(employee == null)
-        {
-            _logger.LogError("EmployeeForCreationDto object sent from client is null.");
-            return BadRequest("EmployeeForCreationDto object is null");
-        }
-
-        if (!ModelState.IsValid)    
-        {
-            _logger.LogError("Invalid model state for the EmployeeForCreationDto object");
-            return UnprocessableEntity(ModelState);
-        }*/
         
         var company = await _repository.Company.GetCompanyAsync(companyId, trackChanges : false);
         if (company == null)
