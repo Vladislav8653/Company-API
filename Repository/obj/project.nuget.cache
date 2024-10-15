@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "z8dUY/jJD+WRplEl/0lWdI9z0DcTyyruO4v2+7QhYKfE2c3wHLUY2fQbhuf4JiEvHlCfVPf8eyHaAN/CTNvXCw==",
+  "dgSpecHash": "48R6oqCJ/10/9kfD0+xLeZ9Yaqqphe4nwsPMlWxa8dcmX83urMxodrhrj0ABdra5Thls+zMHb8hmcwaEQEkfzQ==",
   "success": true,
   "projectFilePath": "D:\\my_code\\book code\\CompanyEmployees\\Repository\\Repository.csproj",
   "expectedPackageFiles": [
@@ -18,7 +18,8 @@
     "C:\\Users\\Владислав\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
     "C:\\Users\\Владислав\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "C:\\Users\\Владислав\\.nuget\\packages\\npgsql\\8.0.4\\npgsql.8.0.4.nupkg.sha512",
-    "C:\\Users\\Владислав\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\8.0.8\\npgsql.entityframeworkcore.postgresql.8.0.8.nupkg.sha512"
+    "C:\\Users\\Владислав\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\8.0.8\\npgsql.entityframeworkcore.postgresql.8.0.8.nupkg.sha512",
+    "C:\\Users\\Владислав\\.nuget\\packages\\system.linq.dynamic.core\\1.4.6\\system.linq.dynamic.core.1.4.6.nupkg.sha512"
   ],
   "logs": []
 }

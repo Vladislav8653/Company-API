@@ -10,7 +10,8 @@
         "dependencies": {
           "Contracts": "1.0.0",
           "Entities": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "8.0.8"
+          "Microsoft.EntityFrameworkCore": "8.0.8",
+          "System.Linq.Dynamic.Core": "1.4.6"
         },
         "runtime": {
           "Repository.dll": {}
@@ -176,6 +177,14 @@
           }
         }
       },
+      "System.Linq.Dynamic.Core/1.4.6": {
+        "runtime": {
+          "lib/net8.0/System.Linq.Dynamic.Core.dll": {
+            "assemblyVersion": "1.4.6.0",
+            "fileVersion": "1.4.6.0"
+          }
+        }
+      },
       "Contracts/1.0.0": {
         "dependencies": {
           "Entities": "1.0.0"
@@ -305,6 +314,13 @@
       "sha512": "sha512-D5WWJZJTgZYUmGv66BARXbTlinp2a5f5RueJqGYoHuWJw02J0i2va/RA+8N4A5hLORK5YKMRqXhFWtKsZdrksw==",
       "path": "npgsql.entityframeworkcore.postgresql/8.0.8",
       "hashPath": "npgsql.entityframeworkcore.postgresql.8.0.8.nupkg.sha512"
+    },
+    "System.Linq.Dynamic.Core/1.4.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GZJ996kvIKH0nnKysDWy+le7k0Hoq1iSY7S5sNq6AF1bXPQGidaXjiOJNX4VCUuVWpbe28Ygb6mDSwgY+UhHLA==",
+      "path": "system.linq.dynamic.core/1.4.6",
+      "hashPath": "system.linq.dynamic.core.1.4.6.nupkg.sha512"
     },
     "Contracts/1.0.0": {
       "type": "project",
