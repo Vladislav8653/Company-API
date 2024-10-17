@@ -36,6 +36,7 @@ builder.Services.AddScoped<ValidationFilterAttribute>();
 builder.Services.AddScoped<ValidateCompanyExistsAttribute>();
 builder.Services.AddScoped<ValidateEmployeeForCompanyExistsAttribute>();
 builder.Services.AddScoped<IDataShaper<EmployeeDto>, DataShaper<EmployeeDto>>();
+builder.Services.AddCustomMediaTypes();
 
 
 var app = builder.Build();
