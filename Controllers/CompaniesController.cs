@@ -1,4 +1,5 @@
-﻿using AutoMapper;
+﻿using Asp.Versioning;
+using AutoMapper;
 using CompanyEmployees.ActionFilters;
 using CompanyEmployees.ModelBinders;
 using Contracts;
@@ -8,8 +9,9 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace CompanyEmployees.Controllers;
 
+[ApiVersion("1.0")]
+[Route("api/companies")]
 [ApiController]
-[Route("api/[controller]")]
 public class CompaniesController : ControllerBase
 {
     private readonly IRepositoryManager _repository;

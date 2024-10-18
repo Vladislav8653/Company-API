@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "viDJwmI9iYccI6x+QTlZpCwjyqkbC1WrNO4vqwlFc6nH6W82Hbjtuu/1xHvd9f306g12bueUO53mAxfYP2QIAA==",
+  "dgSpecHash": "im1TocobW/k+UmBr+te6mDOvhtEheyVLJVj6vltpBSKD7GBgv2SXimVNl8kB9766Qv9asYQcnO1OiZcRBxU8NQ==",
   "success": true,
   "projectFilePath": "D:\\my_code\\book code\\CompanyEmployees\\CompanyEmployees.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Владислав\\.nuget\\packages\\asp.versioning.abstractions\\8.1.0\\asp.versioning.abstractions.8.1.0.nupkg.sha512",
+    "C:\\Users\\Владислав\\.nuget\\packages\\asp.versioning.http\\8.1.0\\asp.versioning.http.8.1.0.nupkg.sha512",
+    "C:\\Users\\Владислав\\.nuget\\packages\\asp.versioning.mvc\\8.1.0\\asp.versioning.mvc.8.1.0.nupkg.sha512",
     "C:\\Users\\Владислав\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Владислав\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\Владислав\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

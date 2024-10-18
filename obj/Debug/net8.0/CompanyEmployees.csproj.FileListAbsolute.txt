@@ -137,3 +137,7 @@ D:\my_code\book code\CompanyEmployees\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.
 D:\my_code\book code\CompanyEmployees\bin\Debug\net8.0\Newtonsoft.Json.dll
 D:\my_code\book code\CompanyEmployees\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
 D:\my_code\book code\CompanyEmployees\bin\Debug\net8.0\System.Linq.Dynamic.Core.dll
+D:\my_code\book code\CompanyEmployees\bin\Debug\net8.0\Asp.Versioning.Abstractions.dll
+D:\my_code\book code\CompanyEmployees\bin\Debug\net8.0\Asp.Versioning.Http.dll
+D:\my_code\book code\CompanyEmployees\bin\Debug\net8.0\Asp.Versioning.Mvc.dll
+D:\my_code\book code\CompanyEmployees\obj\Debug\net8.0\CompanyEmployees.MvcApplicationPartsAssemblyInfo.cs

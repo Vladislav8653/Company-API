@@ -40,6 +40,7 @@ builder.Services.AddScoped<IDataShaper<EmployeeDto>, DataShaper<EmployeeDto>>();
 builder.Services.AddCustomMediaTypes();
 builder.Services.AddScoped<ValidateMediaTypeAttribute>();
 builder.Services.AddScoped<EmployeeLinks>();
+builder.Services.ConfigureVersioning();
 
 
 var app = builder.Build();
