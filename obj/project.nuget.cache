@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "im1TocobW/k+UmBr+te6mDOvhtEheyVLJVj6vltpBSKD7GBgv2SXimVNl8kB9766Qv9asYQcnO1OiZcRBxU8NQ==",
+  "dgSpecHash": "J0IAxZiJGizwrFvRD3ixPJf+EZ3tlBYx1QfyrePIma2OPjZ5ISx/ohUKBVFL6e8g/35Y8OZ00RNNo9wq+G1+PA==",
   "success": true,
   "projectFilePath": "D:\\my_code\\book code\\CompanyEmployees\\CompanyEmployees.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "C:\\Users\\Владислав\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Владислав\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\Владислав\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\Владислав\\.nuget\\packages\\marvin.cache.headers\\7.2.0\\marvin.cache.headers.7.2.0.nupkg.sha512",
     "C:\\Users\\Владислав\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\8.0.10\\microsoft.aspnetcore.jsonpatch.8.0.10.nupkg.sha512",
     "C:\\Users\\Владислав\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\8.0.10\\microsoft.aspnetcore.mvc.newtonsoftjson.8.0.10.nupkg.sha512",
     "C:\\Users\\Владислав\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

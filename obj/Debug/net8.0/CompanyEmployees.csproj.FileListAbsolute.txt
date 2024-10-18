@@ -141,3 +141,4 @@ D:\my_code\book code\CompanyEmployees\bin\Debug\net8.0\Asp.Versioning.Abstractio
 D:\my_code\book code\CompanyEmployees\bin\Debug\net8.0\Asp.Versioning.Http.dll
 D:\my_code\book code\CompanyEmployees\bin\Debug\net8.0\Asp.Versioning.Mvc.dll
 D:\my_code\book code\CompanyEmployees\obj\Debug\net8.0\CompanyEmployees.MvcApplicationPartsAssemblyInfo.cs
+D:\my_code\book code\CompanyEmployees\bin\Debug\net8.0\Marvin.Cache.Headers.dll

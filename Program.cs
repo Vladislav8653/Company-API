@@ -1,3 +1,4 @@
+using Asp.Versioning.Routing;
 using CompanyEmployees.Extensions;
 using LoggerService;
 using Microsoft.AspNetCore.HttpOverrides;
@@ -18,6 +19,7 @@ builder.Services.AddControllers(config =>
 {
     config.RespectBrowserAcceptHeader = true;
     config.ReturnHttpNotAcceptable = true;
+    config.CacheProfiles.Add("120SecondsDuration", new CacheProfile {Duration = 120});
 
 }).AddNewtonsoftJson()
     .AddXmlDataContractSerializerFormatters()
@@ -41,6 +43,8 @@ builder.Services.AddCustomMediaTypes();
 builder.Services.AddScoped<ValidateMediaTypeAttribute>();
 builder.Services.AddScoped<EmployeeLinks>();
 builder.Services.ConfigureVersioning();
+builder.Services.ConfigureResponseCaching();
+builder.Services.ConfigureHttpCacheHeaders();
 
 
 var app = builder.Build();
@@ -60,6 +64,8 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseCors("CorsPolicy");
 app.UseForwardedHeaders(new ForwardedHeadersOptions { ForwardedHeaders = ForwardedHeaders.All });
+app.UseResponseCaching();
+app.UseHttpCacheHeaders();
 app.UseRouting();
 app.UseAuthorization();
 app.MapControllers();
