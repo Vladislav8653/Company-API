@@ -3,6 +3,7 @@ using LoggerService;
 using Microsoft.AspNetCore.HttpOverrides;
 using CompanyEmployees;
 using CompanyEmployees.ActionFilters;
+using CompanyEmployees.Utility;
 using Contracts;
 using Entities.DataTransferObjects;
 using Microsoft.AspNetCore.Mvc;
@@ -37,6 +38,8 @@ builder.Services.AddScoped<ValidateCompanyExistsAttribute>();
 builder.Services.AddScoped<ValidateEmployeeForCompanyExistsAttribute>();
 builder.Services.AddScoped<IDataShaper<EmployeeDto>, DataShaper<EmployeeDto>>();
 builder.Services.AddCustomMediaTypes();
+builder.Services.AddScoped<ValidateMediaTypeAttribute>();
+builder.Services.AddScoped<EmployeeLinks>();
 
 
 var app = builder.Build();

@@ -48,6 +48,8 @@ public static class ServiceExtensions
             {
                 newtonsoftJsonOutputFormatter.SupportedMediaTypes
                     .Add("application/vnd.vlad.hateoas+json");
+                newtonsoftJsonOutputFormatter.SupportedMediaTypes
+                    .Add("application/vnd.vlad.apiroot+json");
             }
 
             var xmlOutputFormatter = config.OutputFormatters
@@ -57,6 +59,8 @@ public static class ServiceExtensions
             {
                 xmlOutputFormatter.SupportedMediaTypes
                     .Add("application/vnd.vlad.hateoas+xml");
+                xmlOutputFormatter.SupportedMediaTypes
+                    .Add("application/vnd.vlad.apiroot+xml");
             }
         });
     }
