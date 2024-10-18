@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "J0IAxZiJGizwrFvRD3ixPJf+EZ3tlBYx1QfyrePIma2OPjZ5ISx/ohUKBVFL6e8g/35Y8OZ00RNNo9wq+G1+PA==",
+  "dgSpecHash": "jr8sfPSH2W/MmVnErY63wPlT1Bc2tjkXI40wyDi9SfJU+6g20ecBUjGyLNphqSoSBErFXfT56RdW5hwQe79z7A==",
   "success": true,
   "projectFilePath": "D:\\my_code\\book code\\CompanyEmployees\\CompanyEmployees.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Владислав\\.nuget\\packages\\asp.versioning.abstractions\\8.1.0\\asp.versioning.abstractions.8.1.0.nupkg.sha512",
     "C:\\Users\\Владислав\\.nuget\\packages\\asp.versioning.http\\8.1.0\\asp.versioning.http.8.1.0.nupkg.sha512",
     "C:\\Users\\Владислав\\.nuget\\packages\\asp.versioning.mvc\\8.1.0\\asp.versioning.mvc.8.1.0.nupkg.sha512",
+    "C:\\Users\\Владислав\\.nuget\\packages\\aspnetcoreratelimit\\5.0.0\\aspnetcoreratelimit.5.0.0.nupkg.sha512",
     "C:\\Users\\Владислав\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Владислав\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\Владислав\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
