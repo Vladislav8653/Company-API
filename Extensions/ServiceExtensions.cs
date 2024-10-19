@@ -8,6 +8,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Formatters;
 using Microsoft.EntityFrameworkCore;
 using Repository;
+using Entities.Models;
+using Microsoft.AspNetCore.Identity;
 
 namespace CompanyEmployees.Extensions;
 
@@ -102,7 +104,7 @@ public static class ServiceExtensions
             new()
             {
                 Endpoint = "*",
-                Limit= 3,
+                Limit= 30,
                 Period = "5m"
             }
         };
@@ -114,6 +116,22 @@ public static class ServiceExtensions
         services.AddSingleton<IIpPolicyStore, MemoryCacheIpPolicyStore>();
         services.AddSingleton<IRateLimitConfiguration, RateLimitConfiguration>();
         services.AddSingleton<IProcessingStrategy, AsyncKeyLockProcessingStrategy>(); // этого не было в книге, но это помогло  
+    }
+
+    public static void ConfigureIdentity(this IServiceCollection services)
+    {
+        var builder = services.AddIdentityCore<User>(o =>
+        {
+            o.Password.RequireDigit = true;
+            o.Password.RequireLowercase = true;
+            o.Password.RequireUppercase = true;
+            o.Password.RequireNonAlphanumeric = false;
+            o.Password.RequiredLength = 10;
+            o.User.RequireUniqueEmail = true;
+        });
+
+        builder = new IdentityBuilder(builder.UserType, typeof(IdentityRole), builder.Services);
+        builder.AddEntityFrameworkStores<RepositoryContext>().AddDefaultTokenProviders();
     }
 
 
