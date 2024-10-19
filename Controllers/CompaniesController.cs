@@ -6,11 +6,13 @@ using Contracts;
 using Entities.DataTransferObjects;
 using Entities.Models;
 using Marvin.Cache.Headers;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CompanyEmployees.Controllers;
 
 [ApiVersion("1.0")]
+[ApiExplorerSettings(GroupName = "v1")]
 [Route("api/companies")]
 [ApiController]
 //[ResponseCache(CacheProfileName = "120SecondsDuration")]
@@ -27,7 +29,7 @@ public class CompaniesController : ControllerBase
         _mapper = mapper;
     }
 
-    [HttpGet(Name = "GetCompanies")]
+    [HttpGet(Name = "GetCompanies"), Authorize(Roles = "Manager")]
     public async Task<IActionResult> GetCompanies()
     {
         var companies = await _repository.Company.GetAllCompaniesAsync(trackChanges: false);
